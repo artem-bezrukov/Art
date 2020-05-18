@@ -1,0 +1,3 @@
+kiev gas 5678 
+moscow neft 150 
+minsk water 152 
