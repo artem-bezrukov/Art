@@ -1,4 +1,4 @@
-﻿
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -7,8 +7,11 @@
 using namespace std;
 bool work=true;
 
-int main()
+int main(int argc, char* argv[])
 {
+	for(int i=0; i<argc; i++){
+				cout<< "argument" << i << argv[i] << endl;
+				}
     setlocale(LC_CTYPE, "Russian");
     char choice;
     cout << "Вас приветствует база данных московского жд вокзала" << endl << "Выберите действие:" << endl;
