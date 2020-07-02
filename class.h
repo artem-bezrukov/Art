@@ -17,7 +17,7 @@ public:
     int GetNum();
     void ScanTrain();
     void Print();
-    void Putinfile();
+    void Putinfile(string argum);
     friend ostream& operator << (ostream& os, const Train& train);
     friend istream& operator >> (istream& is, Train& train);
 };
